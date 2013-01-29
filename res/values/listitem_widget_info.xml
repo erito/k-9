@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item format="integer" type="integer" name="max_message_lines">2</item>
+    <string name="unread_default">0</string>
     
 </resources>

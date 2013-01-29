@@ -20,7 +20,7 @@
         android:id="@+id/dateText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/messageTitle"
+        android:layout_above="@+id/titleText"
         android:layout_alignParentRight="true"
         android:text="Small Text"
         android:textAppearance="?android:attr/textAppearanceSmall" />
@@ -46,5 +46,14 @@
         android:maxLines="@integer/max_message_lines"
         android:text="Small Text"
         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/attachmentImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dateText"
+        android:layout_marginRight="35dp"
+        android:layout_toLeftOf="@+id/dateText"
+        android:src="@drawable/ic_email_attachment_small" />
 
 </RelativeLayout>
