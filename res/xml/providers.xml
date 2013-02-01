@@ -330,4 +330,8 @@
         <incoming uri="imap+ssl://imap.bestpractical.com"  username="$user" />
         <outgoing uri="smtp+tls://smtp.bestpractical.com:2525" />
     </provider>
+    <provider id="discreteit.com" label="Discrete I.T. Solutions Mail" domain="discreteit.com">
+        <incoming uri="imap+ssl://mail.webfaction.com" username="$user" />
+        <outgoing uri="smtp+tls://smtp.webfaction.com" />
+    </provider>
 </providers>

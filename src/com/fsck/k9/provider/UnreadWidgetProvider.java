@@ -32,6 +32,7 @@ public class UnreadWidgetProvider extends AppWidgetProvider {
      * @param context
      *         The {@code Context} object to use for the broadcast intent.
      */
+    
     public static void updateUnreadCount(Context context) {
         Context appContext = context.getApplicationContext();
         AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(appContext);
